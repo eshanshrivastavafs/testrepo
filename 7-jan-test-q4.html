@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>q4</title>
+</head>
+<body>
+ <script>
+ 	let str = "hello welcome to India. Its a great country" ;
+ 	
+
+ 	let arr = str.split(" ");
+ 	console.log(arr);
+ 	
+ 	let arr2 = []  ;
+ 	for(i=0; i<arr.length; i++)
+ 	{
+ 		arr2.push(arr[i].split("").reverse().join(""));
+ 	}
+ 	console.log(arr2);
+ 	let str2 = arr2.join();
+ 	let str3 = str2.split(",").join(" ");
+ 	document.write(str3);
+ 	
+ </script>
+</body>
+</html>
