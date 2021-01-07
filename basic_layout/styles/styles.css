@@ -1,0 +1,48 @@
+    
+.wrapper{
+
+}
+.main {
+border: 2px solid #585858;
+float: right;
+width: 700px;
+height:600px;
+margin-right: 150px;
+margin-top: 30px;
+padding-top: 10px;
+padding:30px;
+clear: both;
+
+}
+.menu {
+float:left;
+width:200px;
+border: 2px solid #585858;
+margin-left: 100px;
+height:300px;
+margin:10px;
+padding: 10px;
+}
+.copyright {
+clear: both;
+text-align: center;
+margin-top: 10px;
+border:2px solid grey;
+
+
+}
+.banner{
+  width: 1200px;
+  height:200px;
+  margin:30px;
+
+}
+h2{
+  text-align: center;
+}
+a{
+  padding-left:50px;
+  text-decoration: none;
+}
+
+
