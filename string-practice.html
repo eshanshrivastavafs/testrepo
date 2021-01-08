@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>string practice</title>
+</head>
+<body>
+ <script>
+ 	let str = "hello everyone this is a file";
+ 	let str2 = str.split(" ");
+ 	console.log(str2);
+ 	
+ 	 let str3 = [];
+ 	   for(i=0; i<str2.length; i++)
+ 	{
+ 		var arr = str2[i].split("");
+ 	   var uc = arr[0].toUpperCase();
+ 	  var res1 = uc.join("");
+ 	   str3.push(res1);
+
+ 	}
+ 	console.log(str3);
+ 	
+ </script>
+</body>
+</html>
